@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	IO
 %define	pnam	CaptureOutput
 Summary:	IO::CaptureOutput - capture STDOUT and STDERR from Perl code, subprocesses or XS
