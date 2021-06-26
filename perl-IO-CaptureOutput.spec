@@ -7,17 +7,18 @@
 Summary:	IO::CaptureOutput - capture STDOUT and STDERR from Perl code, subprocesses or XS
 Summary(pl.UTF-8):	IO::CaptureOutput - przechwytywanie STDOUT i STDERR z kodu w Perlu, podprocesów lub XS
 Name:		perl-IO-CaptureOutput
-Version:	1.1104
+Version:	1.1105
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/IO/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5c98f4ed8e6aa5237e610b5865f275e9
-URL:		http://search.cpan.org/dist/IO-CaptureOutput/
+# Source0-md5:	279c548c10c4dd052c07924c52a17213
+URL:		https://metacpan.org/dist/IO-CaptureOutput
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.17
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl(File::Spec) >= 3.27
 BuildRequires:	perl-File-Temp >= 0.16
